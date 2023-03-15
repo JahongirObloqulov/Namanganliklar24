@@ -1,0 +1,277 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* Header */
+.header {
+    background-color: #f6f6f9;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header-kurs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-kurs span {
+    color: #285193;
+    font-weight: 700;
+}
+
+.header-kurs p {
+    color: #7a7a7a;
+    padding: 10px;
+}
+
+
+
+.header-form {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+#search {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ffffff;
+    width: 145px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.search-btn {
+    background-color: #ffffff;
+    width: 38px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+
+}
+
+.search-btn img {
+    width: 24px;
+    height: 24px;
+}
+
+.lang {
+    width: 65px;
+    height: 40px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.lang a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.subscribe {
+    width: 146px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #1e96c8;
+}
+
+.subscribe a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px;
+    text-align: justify;
+}
+
+.subscribe img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.nav-list {
+    width: 100%;
+    height: 68px;
+    padding-left: 0;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: #515151;
+}
+
+.nav-link.active {
+    color: #295091;
+}
+
+/* Header end */
+
+/* Main section */
+
+
+
+.form h2 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.form input {
+    color: #888888;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    border: 2px solid #285193;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 16px;
+}
+
+.form textarea {
+    color: #888888;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    border: 2px solid #285193;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 16px;
+}
+
+.form-width {
+    width: 600px;
+    height: 50px;
+}
+
+textarea {
+    width: 600px;
+    height: 307px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #295093;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.footer-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #133C82;
+    padding-bottom: 20px;
+}
+
+.footer-logo a {
+    font-size: 16px;
+    font-weight: 700;
+    width: 88px;
+    height: 19px;
+    padding: 10px 12px 6px 9px;
+    color: #ffffff;
+    background-color: #133C82;
+    border-radius: 5px;
+}
+
+.footer-subscribe {
+    width: 146px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.footer-subscribe a {
+    text-decoration: none;
+    color: #295093;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 9px 11px 9px 9px;
+    text-align: center;
+}
+
+.footer-subscribe img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.footer-nav {
+    display: flex;
+    justify-content: baseline;
+    column-gap: 111px;
+    padding-top: 12px;
+    font-size: 14px;
+}
+
+.footer-nav-copy p {
+    margin-top: 12px;
+
+}
+
+.footer-nav li {
+    margin-bottom: 12px;
+}
+
+.footer-nav a {
+    color: #ffffff;
+}
+
+/* Footer end */
